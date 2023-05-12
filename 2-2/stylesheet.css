@@ -1,20 +1,21 @@
-/* -------------------- CSSは一番下から書き始めてください！ -------------------- */
-
 * {
   box-sizing: border-box;
 }
 
 body {
   margin: 0;
-  font-family: "Hiragino Kaku Gothic ProN";
+  font-family: "Hiragino Kaku Gothic ProN", sans-serif;
 }
 
 a {
   text-decoration: none;
 }
 
+.clear {
+  clear: left;
+}
+
 .container {
-  max-width: 1170px;
   width: 100%;
   padding: 0 15px;
   margin: 0 auto;
@@ -190,13 +191,3 @@ footer {
   padding-top: 30px;
   padding-bottom: 20px;
 }
-
-/* -------------------- CSSはここから追加していきましょう！ -------------------- */
-.menu-icon {
-  color: white;
-  font-size: 25px;
-  padding: 21px 0;
-  float: right;
-  display: none;
-}
-
